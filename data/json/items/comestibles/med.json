@@ -88,7 +88,7 @@
     "symbol": "!",
     "color": "white",
     "charges": 10,
-    "flags": [ "NO_INGEST" ],
+    "flags": [ "NO_INGEST", "MYCUS_OK" ],
     "use_action": { "type": "heal", "bandages_power": 1, "bleed": 4, "move_cost": 200 }
   },
   {
@@ -126,7 +126,7 @@
     "stack_size": 200,
     "symbol": "!",
     "color": "white",
-    "use_action": [ "ANTIBIOTIC" ],
+    "use_action": [ "ANTIBIOTIC", "MYCUS_OK" ],
     "flags": [ "NPC_SAFE", "IRREPLACEABLE_CONSUMABLE" ]
   },
   {
@@ -163,7 +163,7 @@
     "symbol": "!",
     "color": "white",
     "healthy": -5,
-    "use_action": [ "ANTIPARASITIC" ],
+    "use_action": [ "ANTIPARASITIC", "MYCUS_OK" ],
     "flags": [ "NPC_SAFE", "IRREPLACEABLE_CONSUMABLE" ]
   },
   {
@@ -203,7 +203,7 @@
     "color": "white",
     "charges": 3,
     "stack_size": 9,
-    "flags": [ "NO_INGEST" ],
+    "flags": [ "NO_INGEST", "MYCUS_OK" ],
     "use_action": { "type": "heal", "bandages_power": 4, "bleed": 15, "move_cost": 300 }
   },
   {
@@ -213,7 +213,7 @@
     "copy-from": "bandages",
     "description": "Simple cloth bandages.  Better than nothing.",
     "price_postapoc": 100,
-    "flags": [ "NO_INGEST" ],
+    "flags": [ "NO_INGEST", "MYCUS_OK" ],
     "use_action": { "type": "heal", "bandages_power": 2, "bleed": 10, "move_cost": 300 }
   },
   {
@@ -223,7 +223,7 @@
     "copy-from": "bandages",
     "description": "Simple cloth bandages.  It is white, as real bandages should be.",
     "price_postapoc": 150,
-    "flags": [ "NO_INGEST" ],
+    "flags": [ "NO_INGEST", "MYCUS_OK" ],
     "use_action": { "type": "heal", "bandages_power": 3, "bleed": 10, "move_cost": 300 }
   },
   {
@@ -233,7 +233,7 @@
     "copy-from": "bandages",
     "description": "Simple cloth bandages.  It was boiled to make it more sterile.",
     "price_postapoc": 150,
-    "flags": [ "NO_INGEST" ],
+    "flags": [ "NO_INGEST", "MYCUS_OK" ],
     "use_action": { "type": "heal", "bandages_power": 3, "bleed": 10, "move_cost": 300 }
   },
   {
@@ -509,7 +509,7 @@
     "symbol": "*",
     "color": "white",
     "container": "bag_plastic",
-    "flags": [ "NO_INGEST" ],
+    "flags": [ "NO_INGEST", "MYCUS_OK" ],
     "use_action": { "type": "heal", "bandages_power": 2, "bleed": 3, "move_cost": 300 }
   },
   {
@@ -577,7 +577,7 @@
     "color": "light_cyan",
     "phase": "liquid",
     "container": "bottle_plastic_small",
-    "flags": [ "NO_INGEST", "IRREPLACEABLE_CONSUMABLE" ],
+    "flags": [ "NO_INGEST", "IRREPLACEABLE_CONSUMABLE", "MYCUS_OK" ],
     "use_action": { "type": "heal", "disinfectant_power": 4, "bite": 0.95, "move_cost": 100 }
   },
   {
@@ -587,7 +587,7 @@
     "price_postapoc": 250,
     "copy-from": "disinfectant",
     "description": "Makeshift antiseptic made from ethanol.  Can be used to disinfect a wound.",
-    "flags": [ "NO_INGEST" ],
+    "flags": [ "NO_INGEST", "MYCUS_OK" ],
     "use_action": { "type": "heal", "disinfectant_power": 3, "bite": 0.95, "move_cost": 100 }
   },
   {
@@ -1206,7 +1206,7 @@
     "material": [ "cotton" ],
     "symbol": ",",
     "color": "white",
-    "flags": [ "NO_INGEST" ],
+    "flags": [ "NO_INGEST", "MYCUS_OK" ],
     "use_action": { "type": "heal", "bandages_power": 4, "bleed": 5, "move_cost": 200 }
   },
   {
@@ -1495,7 +1495,7 @@
     "symbol": "!",
     "color": "light_gray",
     "container": "bag_plastic",
-    "flags": [ "NO_INGEST", "IRREPLACEABLE_CONSUMABLE" ],
+    "flags": [ "NO_INGEST", "IRREPLACEABLE_CONSUMABLE", "MYCUS_OK" ],
     "use_action": { "type": "heal", "bleed": 20, "move_cost": 100 }
   },
   {
@@ -1549,7 +1549,7 @@
     "color": "yellow",
     "phase": "liquid",
     "spoils_in": "28 days",
-    "flags": [ "NO_INGEST" ],
+    "flags": [ "NO_INGEST", "MYCUS_OK" ],
     "use_action": { "type": "heal", "disinfectant_power": 3, "bite": 0.95, "move_cost": 100 }
   },
   {
